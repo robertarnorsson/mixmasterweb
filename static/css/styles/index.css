@@ -33,7 +33,7 @@ header {
 }
 
 .site-frontpage {
-  background-image: linear-gradient(to bottom, transparent, var(--background)), url('../../../assets/images/cocktailbar.jpg');
+  background-image: linear-gradient(to bottom, transparent, var(--background)), url('../../../assets/images/cocktails.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
