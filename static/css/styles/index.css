@@ -66,7 +66,7 @@ header {
   display: block;
   padding: 10px 15px;
   font-size: 1.25rem;
-  font-size: clamp(0.75rem, 2vw, 1.25rem);
+  font-size: clamp(0.65rem, 2vw, 1.25rem);
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -99,7 +99,7 @@ header {
 .site-title p {
   margin: 0;
   font-size: 3rem;
-  font-size: clamp(0.5rem, 1.75vw, 2.25rem);
+  font-size: clamp(0.75rem, 1.75vw, 2.25rem);
   font-weight: 200;
   color: var(--primary-6);
 }
@@ -354,6 +354,10 @@ footer.site-footer {
 }
 
 @media screen and (max-width: 768px) {
+  header {
+    height: 600px;
+  }
+
   .footer-row {
     flex-direction: column;
     align-items: center;
