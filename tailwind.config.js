@@ -6,6 +6,12 @@ module.exports = {
     './404.html',
     './index.html',
   ],
+  purge: [
+    './components/**/*.{html,js}',
+    './pages/**/*.{html,js}',
+    './404.html',
+    './index.html',
+  ],
   darkMode: 'class',
   theme: {
     fontFamily: {
