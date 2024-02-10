@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    './assets/**/*.ttf',
     './components/**/*.{html,js}',
     './pages/**/*.{html,js}',
     './404.html',
@@ -11,7 +12,7 @@ module.exports = {
     fontFamily: {
       rubik: ["Rubik", "sans-serif"],
       roboto: ["Roboto", "sans-serif"],
-      cooper: ["Cooper", "sans-serif"],
+      cooper: ["CooperHewitt", "sans-serif"],
     },
     extend: {
       fontSize: {
