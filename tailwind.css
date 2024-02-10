@@ -1692,6 +1692,10 @@ video {
   fill: #f8fafc;
 }
 
+:is(.dark .dark\:fill-indigo-400) {
+  fill: #818cf8;
+}
+
 :is(.dark .dark\:text-indigo-400) {
   --tw-text-opacity: 1;
   color: rgb(129 140 248 / var(--tw-text-opacity));
