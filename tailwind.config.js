@@ -6,7 +6,7 @@ module.exports = {
     './404.html',
     './index.html',
   ],
-  darkMode: 'media',
+  darkMode: 'class',
   theme: {
     fontFamily: {
       rubik: ["Rubik", "sans-serif"],
@@ -18,10 +18,6 @@ module.exports = {
         '10xl': ['9rem', '1'],
         '11xl': ['10rem', '1'],
         '12xl': ['12rem', '1'],
-      },
-      zIndex: {
-        'nav-bar': '998',
-        'nav-bar-mobile': '999',
       },
     },
   },

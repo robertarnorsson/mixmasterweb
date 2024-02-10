@@ -1,0 +1,19 @@
+.mouse-effect-circle {
+  --circle-size: 20px;
+  position: fixed;
+  height: var(--circle-size);
+  width: var(--circle-size);
+  border: 1px solid;
+  border-radius: 100%;
+  top: calc(var(--circle-size) / 2 * -1);
+  left: calc(var(--circle-size) / 2 * -1);
+  pointer-events: none;
+}
+
+body {
+  cursor: url('../images/mouse-effect-cursor.png') 3 3, default;
+}
+
+a, button {
+  cursor: url('../images/mouse-effect-cursor-hover.png') 6 6, pointer;
+}

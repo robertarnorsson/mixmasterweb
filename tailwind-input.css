@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('./assets/css/style.css');
+
 @font-face {
   font-family: 'Cooper';
   src: url('./assets/fonts/CooperHewitt/CooperHewitt-Thin.ttf') format('truetype');
@@ -67,3 +69,4 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
