@@ -34,8 +34,6 @@ function updateThemeAndCursor(theme) {
     applyCursorToElements(lightCursorHover, ['a', 'button']);
   }
 
-  document.querySelectorAll('#theme-icon-sun').forEach(el => el.classList.toggle('hidden'));
-  document.querySelectorAll('#theme-icon-moon').forEach(el => el.classList.toggle('hidden'));
   console.info('Changed theme to ' + theme);
   localStorage.setItem('theme', theme);
 }
