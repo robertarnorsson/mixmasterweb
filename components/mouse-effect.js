@@ -18,7 +18,12 @@ window.addEventListener('mousemove', (e) => {
     previousMouse.y = mouse.y
     circle.x = mouse.x
     circle.y = mouse.y
-    document.querySelector('.mouse-effect-circle').classList.remove('hidden');
+
+    if ('ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0) {
+      document.querySelector('.mouse-effect-circle').classList.add('hidden');
+    } else {
+      document.querySelector('.mouse-effect-circle').classList.remove('hidden');
+    }
   }
 });
 
@@ -73,6 +78,3 @@ const tick = () => {
 
 tick();
 
-if ('ontouchstart' in window || navigator.maxTouchPoints > 0 || navigator.msMaxTouchPoints > 0) {
-  document.querySelector('.mouse-effect-circle').classList.add('hidden');
-}
