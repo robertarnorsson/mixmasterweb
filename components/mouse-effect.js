@@ -12,6 +12,14 @@ let targetAngle = 0;
 window.addEventListener('mousemove', (e) => {
   mouse.x = e.x;
   mouse.y = e.y;
+
+  if (previousMouse.x === 0 || previousMouse.y === 0) {
+    previousMouse.x = mouse.x
+    previousMouse.y = mouse.y
+    circle.x = mouse.x
+    circle.y = mouse.y
+    document.querySelector('.mouse-effect-circle').classList.remove('hidden');
+  }
 });
 
 const speed = 0.25;
