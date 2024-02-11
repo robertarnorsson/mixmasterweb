@@ -1,5 +1,5 @@
 .mouse-effect-circle {
-  --circle-size: 20px;
+  --circle-size: 6px;
   position: fixed;
   height: var(--circle-size);
   width: var(--circle-size);
